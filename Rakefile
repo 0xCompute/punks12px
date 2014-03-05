@@ -55,8 +55,7 @@ end
 
 
 task :env => BUILD_DIR do
-  require 'worlddb'   ### NB: for local testing use rake -I ./lib dev:test e.g. do NOT forget to add -I ./lib
-  require 'winedb'
+  require 'winedb'   ### NB: for local testing use rake -I ./lib dev:test e.g. do NOT forget to add -I ./lib
   require 'logutils/db'
 
   LogUtils::Logger.root.level = :info
@@ -68,6 +67,7 @@ end
 task :create => :env do
   LogDb.create
   WorldDb.create
+  PersonDb.create
   WineDb.create
 end
 
@@ -80,15 +80,16 @@ task :importworld => :env do
   Region  = WorldDb::Model::Region
   City    = WorldDb::Model::City
 
-  at  = Country.create!( key: 'at', title: 'Austria', code: 'AUT', pop: 0, area: 0 )
-  n   = Region.create!( key: 'n', title: 'Niederösterreich', country_id: at.id )
-  ### feuersbrunn =  to be done; add here
-  ### wagram      =
+  at          = Country.create!( key: 'at', title: 'Austria', code: 'AUT', pop: 0, area: 0 )
+  n           = Region.create!( key: 'n', title: 'Niederösterreich', country_id: at.id )
+
+  feuersbrunn = City.create!( key: 'feuersbrunn', title: 'Feuersbrunn', country_id: at.id, region_id: n.id )
+  wagram      = City.create!( key: 'wagram', title: 'Wagram', country_id: at.id, region_id: n.id )
 end
 
 
 task :importbuiltin => :env do
-  # WineDb.read_builtin
+  # WineDb.read_builtin   -- load grapes, families, etc.
   LogUtils::Logger.root.level = :debug
 end
 
@@ -102,11 +103,12 @@ end
 # note: change deps to what you want to import for now
 
 task :importwine => [:at] do
-  # WineDb.tables
+  # do nothing here for now
 end
 
 
 task :deletewine => :env do
+  PersonDb.delete!   # note: also delete all winemakers
   WineDb.delete!
 end
 
@@ -156,9 +158,10 @@ task :about => :env do
   puts ''
   puts 'gem versions'
   puts '============'
-  puts "textutils #{TextUtils::VERSION}     (#{TextUtils.root})"
-  puts "worlddb   #{WorldDb::VERSION}     (#{WorldDb.root})"
-  puts "winedb    #{WineDb::VERSION}     (#{WineDb.root})"
+  puts "textutils  #{TextUtils::VERSION}     (#{TextUtils.root})"
+  puts "worlddb    #{WorldDb::VERSION}     (#{WorldDb.root})"
+  puts "persondb   #{PersonDb::VERSION}     (#{PersonDb.root})"  
+  puts "winedb     #{WineDb::VERSION}     (#{WineDb.root})"
 
   ## todo - add LogUtils  LogDb ??  - check for .root too
 end
@@ -170,6 +173,11 @@ task :stats => :env do
   puts 'world.db'
   puts '========'
   WorldDb.tables
+
+  puts ''
+  puts 'person.db'
+  puts '======='
+  PersonDb.tables
 
   puts ''
   puts 'wine.db'
