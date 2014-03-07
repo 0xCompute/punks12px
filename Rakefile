@@ -89,7 +89,7 @@ end
 
 
 task :importbuiltin => :env do
-  # WineDb.read_builtin   -- load grapes, families, etc.
+  WineDb.read_builtin    ## load grapes, families, etc.
   LogUtils::Logger.root.level = :debug
 end
 
