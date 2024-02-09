@@ -6,6 +6,10 @@ Looking for the Bitscoin Edition?  See [Punks 12px @ orc721 »](https://github.c
 ## What's News?
 
 
+Pork! Forty-Two New Punks 12px to self-inscribe, first-is-first.
+
+
+
 
 ## The Ethscribe Editions
 
@@ -20,6 +24,27 @@ See [**Vol. 2 - Alien Invasion, The Martians (Max. 1000) »**](https://github.co
 
 
 ### Pork (Piggy Punks) - First-is-First, Self-Inscribe Mint
+
+The pork (punk) fam in 4x
+
+![i/pork@4x.png]
+
+
+Find all reference images (12×12px) one-by-one (in .PNG) 
+in the [**pork/ethscribe**](pork/ethscribe) directory:
+
+![](pork/ethscribe/pork0.png)
+![](pork/ethscribe/pork1.png)
+![](pork/ethscribe/pork2.png)
+![](pork/ethscribe/pork3.png)
+![](pork/ethscribe/pork4.png)
+![](pork/ethscribe/pork5.png)
+![](pork/ethscribe/pork6.png)
+![](pork/ethscribe/pork7.png)
+![](pork/ethscribe/pork8.png)
+![](pork/ethscribe/pork9.png)
+...
+
 
 
 
