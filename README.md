@@ -30,6 +30,23 @@ The pork (punk) fam in 4x
 ![](i/pork@4x.png)
 
 
+**Mint Web** 
+
+SOON!
+
+Find all indexed / confirmed ethscriptions mints in the [pork/mint.csv](pork/mint.csv) tabular dataset e.g.
+
+```
+num, ref
+5574631, 2
+5574633, 0
+5574692, 9
+5575066, 10
+5575073, 14
+...
+```
+
+
 Find all reference images (12×12px) one-by-one (in .PNG) 
 in the [**pork/ethscribe**](pork/ethscribe) directory:
 
@@ -46,8 +63,22 @@ in the [**pork/ethscribe**](pork/ethscribe) directory:
 ...
 
 
+Find all meta data in the [pork/pork12px.csv](pork/pork12px.csv) tabular dataset e.g.
 
-
+```
+id, type, attributes
+ 0,  pork, 
+ 1,  pork, regular shades / red mohawk  
+ 2,  pork, 3d glasses
+ 3,  pork, cap 
+ 4,  pork, cap forward / pipe
+ 5,  pork, laser eyes gold
+ 6,  pork, vr pro
+ 7,  pork, clown eyes green
+ 8,  pork, cap mcd
+ 9,  pork, hoodie 
+...
+```
 
 
 
