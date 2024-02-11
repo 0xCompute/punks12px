@@ -8,7 +8,10 @@ net = Ethscribe::Api.mainnet
 missing = []
 
 
-(0..41).each do |i|
+##
+# redo 45 & 58 - too early (no inscription number assigned)
+
+(0..83).each do |i|
     num = '%02d' % i
     path = "./pork/hashcheck/#{num}.json"
 

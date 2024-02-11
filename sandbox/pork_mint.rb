@@ -5,7 +5,7 @@ require 'cocos'
 recs = []
 
 
-(0..41).each do |i|
+(0..83).each do |i|
     num = '%02d' % i
     path = "./pork/hashcheck/#{num}.json"
 
