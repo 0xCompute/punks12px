@@ -6,7 +6,7 @@ Looking for the Bitscoin Edition?  See [Punks 12px @ orc721 »](https://github.c
 ## What's News?
 
 
-Pork! Forty-Two New Punks 12px to self-inscribe, first-is-first.
+Pork! Forty-Two + Forty-Two (Eighty-Four) New Punks 12px to self-inscribe, first-is-first.
 
 
 
@@ -84,8 +84,7 @@ id, type, attributes
 
 ## Questions? Comments?
 
-
-Join us in the Ethscription discord server. Yes you can.
+Join us in the [0xCompute discord (chat server)](https://discord.gg/3JRnDUap6y). Yes you can.
 Your questions and commentary welcome.
 
 Or post them over at the [Help & Support](https://github.com/geraldb/help) page. Thanks.
