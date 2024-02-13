@@ -8,11 +8,14 @@ net = Ethscribe::Api.mainnet
 missing = []
 
 
+force = false    # true
+
+
 (0..83).each do |i|
     num = '%02d' % i
     path = "./pork/hashcheck/#{num}.json"
 
-    if File.exist?( path )
+    if File.exist?( path ) && force == false
         ## skip; already checked
     else
       puts "==> #{i}..."
