@@ -8,16 +8,19 @@ Looking for the Bitscoin Edition?  See [Punks 12px @ orc721 »](https://github.c
 ## What's News?
 
 
-Presidents!   Twenty-One + Twenty-One (Fourty-Two) New Punks 12px to mint via facet nfts.
+Presidents!   Twenty-One + Twenty-One (Fourty-Two) New Punks 12px to mint via facet nfts (0015 eth + network fees).
+
+Pork! Forty-Two + Forty-Two (Eighty-Four) New Punks 12px free to self-inscribe, first-is-first. Ty. All 84 minted.
 
 
-Pork! Forty-Two + Forty-Two (Eighty-Four) New Punks 12px to self-inscribe, first-is-first.
+For updates, see <https://twitter.com/punks12px_eth>.
+
 
 
 
 ## The Facet Edition
 
-### Presidents -  Joe, Donald & Nikki
+### Presidents (42 max.) -  Joe, Donald & Nikki
 
 The presidents (punk) fam in 4x
 
@@ -26,7 +29,10 @@ The presidents (punk) fam in 4x
 
 **Mint Web** 
 
-SOON!
+See <https://facetnft.com/collection/presidents-punks-12px>
+
+note: the metadata for the mint is shuffled (that is, random) and is 0.0015 eth + network fees
+
 
 
 Find all meta data in the [presidents/presidents12px.csv](presidents/presidents12px.csv) tabular dataset e.g.
@@ -62,16 +68,20 @@ See [**Vol. 2 - Alien Invasion, The Martians (Max. 1000) »**](https://github.co
 ## Vol. 3 & Beyond
 
 
-### Pork (Piggy Punks) - First-is-First, Self-Inscribe Mint
+### Pork (max. 84) - Piggy Punks - First-is-First, Self-Inscribe Mint
 
 The pork (punk) fam in 4x
 
 ![](i/pork@4x.png)
 
 
-**Mint Web** 
+**Markets**
 
-SOON!
+see <https://ordex.io/collection/eth/pork12px>
+
+
+
+**Mint** 
 
 Find all indexed / confirmed ethscriptions mints in the [pork/mint.csv](pork/mint.csv) tabular dataset e.g.
 
