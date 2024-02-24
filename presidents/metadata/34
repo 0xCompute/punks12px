@@ -1,0 +1,14 @@
+{
+  "name": "President 12px #34",
+  "image": "https://github.com/0xCompute/punks12px/raw/master/presidents/i/president36.png",
+  "attributes": [
+    {
+      "trait_type": "type",
+      "value": "nikki green"
+    },
+    {
+      "trait_type": "attribute count",
+      "value": "0"
+    }
+  ]
+}

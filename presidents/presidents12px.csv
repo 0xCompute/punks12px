@@ -1,0 +1,43 @@
+id, type, attributes
+1,  joe,
+2,   joe, cap blue
+3,   joe, clown eyes blue / clown nose 
+4,   joe, 3d glasses
+5,   joe, regular shades
+6,   joe, cap blue / regular shades
+7,   joe, laser eyes gold
+8,   donald,
+9,   donald, cap red
+10,   donald, cap mcd
+11,   donald, clown eyes green / clown nose
+12,   donald, 3d glasses
+13,   donald, laser eyes
+14,   donald, regular shades
+15,   nikki,
+16,   nikki, cap red
+17,   nikki, big shades / earring
+18,   nikki, 3d glasses
+19,   nikki, laser eyes / gold chain
+20,   nikki, cap red / vr
+21,   nikki, hoodie red
+22,   joe green,
+23,   joe green, regular shades
+24,   joe blue,   
+25,   joe blue, regular shades
+26,   joe (1bit),
+27,   joe (1bit), regular shades blue
+28,   joe (1bit), maxi biz laser eyes blue
+29,   donald green,
+30,   donald green, regular shades
+31,   donald red,   
+32,   donald red, regular shades
+33,   donald (1bit),
+34,   donald (1bit), regular shades red
+35,   donald (1bit), maxi biz laser eyes red
+36,   nikki green,
+37,   nikki green, regular shades
+38,   nikki red,   
+39,   nikki red, regular shades
+40,   nikki (1bit),
+41,   nikki (1bit), regular shades red
+42,   nikki (1bit), maxi biz laser eyes red

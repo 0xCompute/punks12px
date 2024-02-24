@@ -1,0 +1,14 @@
+{
+  "name": "President 12px #11",
+  "image": "https://github.com/0xCompute/punks12px/raw/master/presidents/i/president31.png",
+  "attributes": [
+    {
+      "trait_type": "type",
+      "value": "donald red"
+    },
+    {
+      "trait_type": "attribute count",
+      "value": "0"
+    }
+  ]
+}

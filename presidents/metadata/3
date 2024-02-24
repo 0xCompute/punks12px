@@ -1,0 +1,18 @@
+{
+  "name": "President 12px #3",
+  "image": "https://github.com/0xCompute/punks12px/raw/master/presidents/i/president12.png",
+  "attributes": [
+    {
+      "trait_type": "type",
+      "value": "donald"
+    },
+    {
+      "trait_type": "attribute",
+      "value": "3d glasses"
+    },
+    {
+      "trait_type": "attribute count",
+      "value": "1"
+    }
+  ]
+}

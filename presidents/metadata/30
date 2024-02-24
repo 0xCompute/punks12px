@@ -1,0 +1,22 @@
+{
+  "name": "President 12px #30",
+  "image": "https://github.com/0xCompute/punks12px/raw/master/presidents/i/president3.png",
+  "attributes": [
+    {
+      "trait_type": "type",
+      "value": "joe"
+    },
+    {
+      "trait_type": "attribute",
+      "value": "clown eyes blue"
+    },
+    {
+      "trait_type": "attribute",
+      "value": "clown nose"
+    },
+    {
+      "trait_type": "attribute count",
+      "value": "2"
+    }
+  ]
+}

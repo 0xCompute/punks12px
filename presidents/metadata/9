@@ -1,0 +1,22 @@
+{
+  "name": "President 12px #9",
+  "image": "https://github.com/0xCompute/punks12px/raw/master/presidents/i/president19.png",
+  "attributes": [
+    {
+      "trait_type": "type",
+      "value": "nikki"
+    },
+    {
+      "trait_type": "attribute",
+      "value": "laser eyes"
+    },
+    {
+      "trait_type": "attribute",
+      "value": "gold chain"
+    },
+    {
+      "trait_type": "attribute count",
+      "value": "2"
+    }
+  ]
+}

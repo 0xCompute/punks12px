@@ -1,0 +1,22 @@
+{
+  "name": "President 12px #37",
+  "image": "https://github.com/0xCompute/punks12px/raw/master/presidents/i/president20.png",
+  "attributes": [
+    {
+      "trait_type": "type",
+      "value": "nikki"
+    },
+    {
+      "trait_type": "attribute",
+      "value": "cap red"
+    },
+    {
+      "trait_type": "attribute",
+      "value": "vr"
+    },
+    {
+      "trait_type": "attribute count",
+      "value": "2"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "President 12px #14",
+  "image": "https://github.com/0xCompute/punks12px/raw/master/presidents/i/president24.png",
+  "attributes": [
+    {
+      "trait_type": "type",
+      "value": "joe blue"
+    },
+    {
+      "trait_type": "attribute count",
+      "value": "0"
+    }
+  ]
+}

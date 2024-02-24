@@ -1,12 +1,51 @@
 Looking for the Bitscoin Edition?  See [Punks 12px @ orc721 »](https://github.com/orc721/punks12px) 
 
 
-# Punks 12px, The Ethscribe Editions
+
+
+# Punks 12px, The Facet & Ethscribe Editions
 
 ## What's News?
 
 
+Presidents!   Twenty-One + Twenty-One (Fourty-Two) New Punks 12px to mint via facet nfts.
+
+
 Pork! Forty-Two + Forty-Two (Eighty-Four) New Punks 12px to self-inscribe, first-is-first.
+
+
+
+## The Facet Edition
+
+### Presidents -  Joe, Donald & Nikki
+
+The presidents (punk) fam in 4x
+
+![](i/presidents@4x.png)
+
+
+**Mint Web** 
+
+SOON!
+
+
+Find all meta data in the [presidents/presidents12px.csv](presidents/presidents12px.csv) tabular dataset e.g.
+
+```
+id, type, attributes
+1,  joe,
+2,   joe, cap blue
+3,   joe, clown eyes blue / clown nose 
+4,   joe, 3d glasses
+5,   joe, regular shades
+6,   joe, cap blue / regular shades
+7,   joe, laser eyes gold
+8,   donald,
+9,   donald, cap red
+10,   donald, cap mcd
+...
+```
+
 
 
 

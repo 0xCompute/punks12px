@@ -1,0 +1,14 @@
+{
+  "name": "President 12px #22",
+  "image": "https://github.com/0xCompute/punks12px/raw/master/presidents/i/president29.png",
+  "attributes": [
+    {
+      "trait_type": "type",
+      "value": "donald green"
+    },
+    {
+      "trait_type": "attribute count",
+      "value": "0"
+    }
+  ]
+}
