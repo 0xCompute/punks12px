@@ -74,7 +74,7 @@ The first hundred martian (alien punk) 12px fam in 4x
 
 **Mint web**
 
-  - <https://0xcompute.github.io/punks12px/martians>
+  - <https://0xcompute.github.io/punks12px>
 
 
 ![](i/martians12px-mint.png)
@@ -148,7 +148,7 @@ Find the composite fam image of all 1000 in a 50×20 grid in [martians/martians1
 
 
 
-### Vol. 3 - Pork, Piggy Punks (Max. 84) 
+### Vol. 3 - Pork, Piggy Punks (Max. 84) - MINTED OUT!
 
 The pork (punk) fam in 4x
 
