@@ -68,7 +68,7 @@ The first hundred punk 12px fam in 4x
 ![](i/punks12px@4x.png "the first hundred punk 12px in 4x") 
 
 
-**Marketplaces**
+**Markets**
 
   - <https://ordex.io/collection/eth/punks12px>
 
@@ -205,10 +205,12 @@ The first hundred martian (alien punk) 12px fam in 4x
 ![](i/martians12px-mint.png)
 
 
-**Marketplace**
+<!--
+**Markets**
 
   - SOON!
 
+-->
 
 
 Find all indexed / confirmed ethscriptions mints in the [martians/mint.csv](martians/mint.csv) tabular dataset e.g.
