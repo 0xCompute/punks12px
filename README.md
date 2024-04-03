@@ -79,7 +79,7 @@ The first hundred punk 12px fam in 4x
 **More**
 
 
-Find all ethscriptions mints in the [classics/mint.csv](classics/mint.csv) tabular dataset e.g.
+Find all ethscriptions mints in the [punks/mint.csv](punks/mint.csv) tabular dataset e.g.
 
 ```
 num, ref
@@ -94,22 +94,22 @@ num, ref
 ...
 ```
 
-Find all 10000 reference images one-by-one in 12×12px in [**classics/ethscribe**](classics/ethscribe):
+Find all 10000 reference images one-by-one in 12×12px in [**punks/ethscribe**](punks/ethscribe):
 
-![](classics/ethscribe/punk0000.png)
-![](classics/ethscribe/punk0001.png)
-![](classics/ethscribe/punk0002.png)
-![](classics/ethscribe/punk0003.png)
-![](classics/ethscribe/punk0004.png)
-![](classics/ethscribe/punk0005.png)
-![](classics/ethscribe/punk0006.png)
-![](classics/ethscribe/punk0007.png)
-![](classics/ethscribe/punk0008.png)
-![](classics/ethscribe/punk0009.png)
+![](punks/ethscribe/punk0000.png)
+![](punks/ethscribe/punk0001.png)
+![](punks/ethscribe/punk0002.png)
+![](punks/ethscribe/punk0003.png)
+![](punks/ethscribe/punk0004.png)
+![](punks/ethscribe/punk0005.png)
+![](punks/ethscribe/punk0006.png)
+![](punks/ethscribe/punk0007.png)
+![](punks/ethscribe/punk0008.png)
+![](punks/ethscribe/punk0009.png)
 ...
 
 
-Find all meta data in the [classics/punks12px.csv](classics/punks12px.csv) tabular dataset e.g.
+Find all meta data in the [punks/punks12px.csv](punks/punks12px.csv) tabular dataset e.g.
 
 ```
 id, type, attributes
@@ -182,9 +182,9 @@ id, type, attributes
 
 **Bonus - All together now**
 
-Find the composite fam image of all 10000 in a 100×100 grid in [classics/punks12px.png](classics/punks12px.png) (~360k - 1200×1200px).
+Find the composite fam image of all 10000 in a 100×100 grid in [punks/punks12px.png](punks/punks12px.png) (~360k - 1200×1200px).
 
-![](classics/punks12px.png)
+![](punks/punks12px.png)
 
 
 
