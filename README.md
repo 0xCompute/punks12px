@@ -56,10 +56,135 @@ id, type, attributes
 
 
 
+
 ## The Ethscribe Editions (First-is-First, Free Self-Inscribe Mint)
 
 
-See [**Vol. 1 - The Classics (Max. 10000) »**](https://github.com/0xCompute/punks12px.vol1)
+### Vol. 1 - The Classics (Max. 10000) - MINTED OUT!
+
+
+The first hundred punk 12px fam in 4x
+
+![](i/punks12px@4x.png "the first hundred punk 12px in 4x") 
+
+
+**Marketplaces**
+
+  - <https://ordex.io/collection/eth/punks12px>
+
+![](i/punks12px-market.png)
+
+
+
+**More**
+
+
+Find all ethscriptions mints in the [classics/mint.csv](classics/mint.csv) tabular dataset e.g.
+
+```
+num, ref
+4040227, 281
+4040302, 8857
+4040308, 9280
+4040329, 5822
+4040330, 2924
+4040331, 4464
+4040345, 3100
+4040346, 4156
+...
+```
+
+Find all 10000 reference images one-by-one in 12×12px in [**classics/ethscribe**](classics/ethscribe):
+
+![](classics/ethscribe/punk0000.png)
+![](classics/ethscribe/punk0001.png)
+![](classics/ethscribe/punk0002.png)
+![](classics/ethscribe/punk0003.png)
+![](classics/ethscribe/punk0004.png)
+![](classics/ethscribe/punk0005.png)
+![](classics/ethscribe/punk0006.png)
+![](classics/ethscribe/punk0007.png)
+![](classics/ethscribe/punk0008.png)
+![](classics/ethscribe/punk0009.png)
+...
+
+
+Find all meta data in the [classics/punks12px.csv](classics/punks12px.csv) tabular dataset e.g.
+
+```
+id, type, attributes
+0, Green Female, Earring / Blonde Bob / Green Eye Shadow
+1, Gold, Mohawk
+2, Female 3, Wild Hair
+3, Male 1, Wild Hair / Pipe / Nerd Glasses
+4, Green, Goat / Earring / Wild Hair / Big Shades
+5, Green Female, Earring / Half Shaved / Purple Eye Shadow
+6, Green, Do-rag
+7, Green Female, Spots / Wild White Hair / Clown Eyes Blue
+8, Male 1, Luxurious Beard / Messy Hair
+9, Green, Big Beard / Police Cap / Clown Nose
+...
+```
+
+
+<details>
+<summary markdown="1">Show / Hide Popularity & Rarity</summary>
+
+
+#### Popularity & Rarity by Types 
+
+|  Type                                   | Pop             |
+|-----------------------------------------|----------------:|
+| ![](i/alien@4x.png) Alien               |    9  ( 0.09 %)  |
+| ![](i/red@4x.png) Red                   |   15  ( 0.15 %)  |
+| ![](i/aqua@4x.png) Aqua                 |   17  ( 0.17 %)  |
+| ![](i/purple@4x.png) Purple             |   19  ( 0.19 %)  |
+| ![](i/ape@4x.png) Ape                   |   24  ( 0.24 %)  |
+| ![](i/purple_female@4x.png) Purple Female |   53  ( 0.53 %)  |
+| ![](i/bot@4x.png) Bot                   |   57  ( 0.57 %)  |
+| ![](i/red_female@4x.png) Red Female     |   58  ( 0.58 %)  |
+| ![](i/demon@4x.png) Demon               |   59  ( 0.59 %)  |
+| ![](i/blue_female@4x.png) Blue Female   |   59  ( 0.59 %)  |
+| ![](i/skeleton@4x.png) Skeleton         |   69  ( 0.69 %)  |
+| ![](i/orc@4x.png) Orc                   |   69  ( 0.69 %)  |
+| ![](i/zombie@4x.png) Zombie             |   80  ( 0.80 %)  |
+| ![](i/blue@4x.png) Blue                 |  156  ( 1.56 %)  |
+| ![](i/gold@4x.png) Gold                 |  198  ( 1.98 %)  |
+| ![](i/female4@4x.png) Female 4          |  418  ( 4.18 %)  |
+| ![](i/male4@4x.png) Male 4              |  557  ( 5.57 %)  |
+| ![](i/green_female@4x.png) Green Female | 1033  (10.33 %)  |
+| ![](i/female1@4x.png) Female 1          | 1089  (10.89 %)  |
+| ![](i/female3@4x.png) Female 3          | 1130  (11.30 %)  |
+| ![](i/male1@4x.png) Male 1              | 1410  (14.10 %)  |
+| ![](i/green@4x.png) Green               | 1710  (17.10 %)  |
+| ![](i/male3@4x.png) Male 3              | 1711  (17.11 %)  |
+
+
+
+#### Popularity & Rarity by Attribute Count
+
+
+| Count        | Pop             |
+|--------------|----------------:|
+| 0            |   12  ( 0.12 %) |
+| 1            |  429  ( 4.29 %) |
+| 2            | 3672  (36.72 %) |
+| 3            | 4429  (44.29 %) |
+| 4            | 1320  (13.20 %) |
+| 5            |  129  ( 1.29 %) |
+| 6            |    8  ( 0.08 %) |
+| 7            |    1  ( 0.01 %) |
+
+
+</details>
+
+
+
+**Bonus - All together now**
+
+Find the composite fam image of all 10000 in a 100×100 grid in [classics/punks12px.png](classics/punks12px.png) (~360k - 1200×1200px).
+
+![](classics/punks12px.png)
 
 
 
@@ -208,6 +333,20 @@ id, type, attributes
  9,  pork, hoodie 
 ...
 ```
+
+
+
+
+
+
+## Builders Corner - Yes, You Can
+
+For reference find all (generative) attributes (base types and accessories) in 12×12px in [**/attributes @ cryptopunksnotdead/punks.mini »**](https://github.com/cryptopunksnotdead/punks.mini/tree/master/attributes).
+
+Yes, you can regenerate this punks 12px sets 
+using the generate_meta scripts
+and using the generate scripts to generate all images
+from the tabular datasets.
 
 
 
